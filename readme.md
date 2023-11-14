@@ -9,3 +9,4 @@ Todo:
 - bevegelse
 - miste liv/dø
 - ta liv
+- yo
