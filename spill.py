@@ -10,7 +10,7 @@ klokke = pygame.time.Clock()
 
 while True:
 
-    # 2. Håndter inputk
+    # 2. Håndter input
     for hendelse in pygame.event.get():
         if hendelse.type == pygame.QUIT:
             pygame.quit()
