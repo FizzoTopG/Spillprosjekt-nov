@@ -7,3 +7,4 @@ class Figur():
 
     def tegn(self, vindu: pygame.Surface):
         vindu.blit(self.bilde, self.ramme)
+
