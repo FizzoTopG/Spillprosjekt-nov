@@ -8,9 +8,21 @@ class Bil(Figur):
         self.liv = 3
         self.bilde = pygame.transform.scale_by(self.bilde, 0.2)
         self.ramme = self.bilde.get_rect()
+        
         #setter bilen i startposisjon
         self.ramme.centerx = vindu_bredde / 2
         self.ramme.bottom = vindu_høyde 
 
     def flytt(self, dx: int):
         self.ramme.x += dx
+
+    def opp(self, dy):
+        self.ramme.y -= dy
+
+    def ned(self, dy):
+        self.ramme.y += dy
+
+   
+
+
+    
