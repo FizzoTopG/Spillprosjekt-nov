@@ -25,10 +25,10 @@ underskrift_font = pygame.font.SysFont("Arial", 16)
 bil = Bil(BREDDE, HOYDE)
 verdener = []
 
-verden = Verden(BREDDE, verdener)
-verden2 = Verden(BREDDE, verdener)
-verden3 = Verden(BREDDE, verdener)
-greta = Greta(BREDDE, verdener)
+verden = Verden(BREDDE)
+verden2 = Verden(BREDDE )
+verden3 = Verden(BREDDE)
+greta = Greta(BREDDE)
 
 
 
